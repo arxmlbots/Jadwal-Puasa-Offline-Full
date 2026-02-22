@@ -1,0 +1,60 @@
+Haloooo pengguna, Iya kamu, saya tunjuk kamu kok
+jangan baper yaa 😂😹
+
+Mau jalanin file pythonoff.py yaa??
+
+cara jalanin file ini gampang kok asal kamu ikutin instruksi ini oke 😉
+
+# ---- CARA PENGINSTALAN ---- #
+
+-> jika kamu pakai hp android, gunakan Termux ya. Link Termux yang terbaru boleh di cek lewat F-Droid ya karena Termux versi Playstore sudah jarang Update ( katanya ) kalo mau stable boleh download di F-droid / situs web F-droid nya saja.
+
+-> jika sudah download Termux versi stabil kalo di saya versi 0.119.0-beta.3 (1022). lalu buka aplikasi nya yaa
+
+-> jika sudah tunggu dulu bootstrap hingga terpasang,njika bootstrap sudah terpasang otomatis saat buka Termux lalu ketik ini: 
+
+    "termux-setup-storage" !TANPA TANDA PETIK YA!
+
+jika sudah ketik itu klik Izinkan atau Allow!
+
+-> jika sudah kamu boleh lanjut ke bagian ini yaa:
+
+    pkg update -y
+    pkg upgrade -y
+    pkg install python git -y
+    
+-> jika sudah next ke clone repository gw ya link:
+    https://github.com/arxmlbots/Jadwal-Puasa-Offline-Full
+    
+untuk cara clone nya gunakan ini: git clone
+
+keseluruhan: git clone https://github.com/arxmlbots/Jadwal-Puasa-Offline-Full
+
+
+-> jika sudah di clone kamu bisa akses langsung ke folder python nya ya gw gak tau ini pake folder atau nggak tapi kamu coba saja ya
+
+cek dulu pake "ls"
+jika filenya ada 3 yaitu pythonoff.py, puasaoff.py installation.txt, dan requirements.txt jika file ke 3 tersebut gad di bungkus folder ya kamu jalanin penginstalan requirements.txt dulu dengan format
+
+pip install -r requirements.txt # fungsinya untuk mendownload Dependency yang di perlukan oleh script python ini
+
+jika ini pake folder kamu seperti biasa pake "ls"
+lalu lihat apakah ada folder berwarna ungu itu folder ya jika foldernya Jadwal-Puasa-Offline-Full
+
+kamu akses dengan format: cd Jadwal-Puasa-Offline-Full
+
+jika bukan nama foldernya kamu baca saja nama folder yang berwarna ungu denga format: cd (nama folder) *tanpa tanda kurung buka dan tutup!
+
+jika sudah ya balik lagi ke
+
+pip install -r requirements.txt
+
+setelah itu ya jalankan script dengan format
+
+python puasaoff.py
+
+setelah di jalankan tunggu penginstalan hingga selesai jika sudah selesai ya itu lah hasilnya
+
+oh iya jangan lupa beri tanda bintang ya di my github gw yaww
+
+# ---- END ---- #
