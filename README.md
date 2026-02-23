@@ -13,5 +13,5 @@ Jadwal Puasa Offline Full terbaik dari repository ini cara penggunaan mudah, cep
 
 link download cara penginstalan *ini berbentuk txt
 
-[download file installasi.txt disini](installation.txt)
+[download file installasi.txt disini](https://github.com/user-attachments/files/25473697/installation.txt)
 
